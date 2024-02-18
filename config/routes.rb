@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   # point to application_controller.rb
   # root 'application#hello'
   root 'pages#home'
+  get 'about', to: 'pages#about'
 
   # Defines the root path route ("/")
   # root "posts#index"
